@@ -46,5 +46,17 @@
   <script src="js/index.js"></script>
   <script src="js/idb.js"></script>
 </body>
+<script>
+  (function() {
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker
+      .register('./service-worker.js')
+      .then(() => console.log('Service Worker register success'))
+      .catch(error =>
+        console.log('Service Worker register failed', error)
+      );
+    }
+  })();
+</script>
 
 </html>
