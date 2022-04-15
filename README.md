@@ -6,7 +6,8 @@
   The PWA Budget Tracker is an app that allows the user to add income and expenses to a budget that is tracked. This app works for the user when they are online or offline. The offline capibility is key for the user.
 
   ## Project Preview Image
-  <img src="Screen_Grab.JPG" alt="Project Image">
+  
+  <img src=".public/img/Screen_Grab.JPG">
 
   ## Table of Contents
   * [Installation](#installation)
