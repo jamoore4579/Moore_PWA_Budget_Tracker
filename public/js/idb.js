@@ -68,7 +68,7 @@ function uploadTransaction() {
                         throw new Error(serverResponse);
                     }
 
-                    const transaction = db.transaction(['new_trasaction'], 'readwrite');
+                    const transaction = db.transaction(['new_transaction'], 'readwrite');
 
                     const budgetObjectStore = transaction.objectStore('new_transaction');
 
