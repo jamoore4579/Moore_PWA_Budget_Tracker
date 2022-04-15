@@ -52,7 +52,7 @@ function uploadTransaction() {
 
     getAll.onsuccess = function() {
 
-        if (getAll.results.length > 0) {
+        if (getAll.result.length > 0) {
             fetch('/api/transaction', {
                 method: 'POST',
                 body: JSON.stringify(getAll.result),
